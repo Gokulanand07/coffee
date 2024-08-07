@@ -1,0 +1,79 @@
+/* shop.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_section {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-item.active .nav-link {
+    color: #007bff;
+}
+
+.login_bt ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.login_bt li {
+    margin-left: 15px;
+}
+
+.login_bt a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.user_icon {
+    margin-right: 5px;
+}
+
+.fa-search {
+    font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border: none;
+        outline: none;
+    }
+
+    .navbar-collapse {
+        background-color: #f8f9fa;
+    }
+
+    .nav-link {
+        padding: 10px;
+        border-top: 1px solid #e7e7e7;
+    }
+}
